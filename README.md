@@ -1,7 +1,7 @@
 # PojavLauncher-PythonMojangLogin
 
 ## Usage
-'''python3 mojangauth.py username password'''
+```python3 mojangauth.py username password```
 
 ## Setup
 Download mojangauth.py from the releases section.
