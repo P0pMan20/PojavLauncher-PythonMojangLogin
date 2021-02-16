@@ -9,4 +9,4 @@ Move mojangauth.py into /var/mobile/Documents/.
 
 ## Dependancies
 Python 3
-The requests package ( ```python3 -m pip install requests```)
+and the requests package ( ```python3 -m pip install requests```)
