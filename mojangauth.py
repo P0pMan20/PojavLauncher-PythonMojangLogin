@@ -33,7 +33,7 @@ output = { "accessToken": pjson['accessToken'],
 "msaRefreshToken": 0}
 #print(output)
 try:
-    with open('.pojavlauncher/accounts/' + pjson['selectedProfile']['name'] + '.json', 'r+') as f:
+    with open('.pojavlauncher/accounts/' + pjson['selectedProfile']['name'] + '.json', 'w+') as f:
         json.dump(output, f)
 
         
